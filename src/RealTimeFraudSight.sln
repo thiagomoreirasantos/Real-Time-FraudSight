@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Contracts", "RealTimeFraudSight.Contracts\RealTimeFraudSight.Contracts.csproj", "{366E2BFE-FF08-4298-8BCF-886E9AC77ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Dispatcher", "RealTimeFraudSight.Dispatcher\RealTimeFraudSight.Dispatcher.csproj", "{F883FABD-09AE-49AC-8159-E27D3BDB4F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.FraudLensService", "RealTimeFraudSight.FraudLensService\RealTimeFraudSight.FraudLensService.csproj", "{98799053-7B18-4916-93D8-5884DA46CC2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Domain", "RealTimeFraudSight.Domain\RealTimeFraudSight.Domain.csproj", "{1020C08A-5F3F-4588-861D-8D9548C1C5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Gateway", "RealTimeFraudSight.Gateway\RealTimeFraudSight.Gateway.csproj", "{12CAC84E-9BDC-427B-A455-5925409D43F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +20,27 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{366E2BFE-FF08-4298-8BCF-886E9AC77ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366E2BFE-FF08-4298-8BCF-886E9AC77ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366E2BFE-FF08-4298-8BCF-886E9AC77ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366E2BFE-FF08-4298-8BCF-886E9AC77ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F883FABD-09AE-49AC-8159-E27D3BDB4F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F883FABD-09AE-49AC-8159-E27D3BDB4F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F883FABD-09AE-49AC-8159-E27D3BDB4F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F883FABD-09AE-49AC-8159-E27D3BDB4F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98799053-7B18-4916-93D8-5884DA46CC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98799053-7B18-4916-93D8-5884DA46CC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98799053-7B18-4916-93D8-5884DA46CC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98799053-7B18-4916-93D8-5884DA46CC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1020C08A-5F3F-4588-861D-8D9548C1C5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1020C08A-5F3F-4588-861D-8D9548C1C5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1020C08A-5F3F-4588-861D-8D9548C1C5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1020C08A-5F3F-4588-861D-8D9548C1C5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CAC84E-9BDC-427B-A455-5925409D43F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CAC84E-9BDC-427B-A455-5925409D43F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CAC84E-9BDC-427B-A455-5925409D43F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CAC84E-9BDC-427B-A455-5925409D43F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
