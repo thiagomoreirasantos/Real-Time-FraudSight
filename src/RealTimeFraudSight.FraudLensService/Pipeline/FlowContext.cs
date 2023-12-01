@@ -1,6 +1,6 @@
 namespace RealTimeFraudSight.FraudLensService.Pipeline
 {
-    public class PipelineContext
+    public class FlowContext
     {
         
     }
