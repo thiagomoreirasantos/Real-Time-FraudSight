@@ -14,5 +14,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RealTimeFraudSight.Contracts\RealTimeFraudSight.Contracts.csproj" />
+    <ProjectReference Include="..\RealTimeFraudSight.Domain\RealTimeFraudSight.Domain.csproj" />
   </ItemGroup>
 </Project>
