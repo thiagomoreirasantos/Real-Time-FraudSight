@@ -40,17 +40,17 @@ namespace RealTimeFraudSight.Domain
             this.Items.Remove(item);
         }
 
-        public void UpdateOrder(DateTime orderDate, decimal totalAmount, string shippingAddress, string billingAddress, int paymentMethod, int orderStatus, int shippingMethod, string trackingNumber, string customerNotes)
+        public void UpdateOrder(Order order, DateTime orderDate, decimal totalAmount, string shippingAddress, string billingAddress, int paymentMethod, int orderStatus, int shippingMethod, string trackingNumber, string customerNotes)
         {
-            this.OrderDate = orderDate;
-            this.TotalAmount = totalAmount;
-            this.ShippingAddress = shippingAddress;
-            this.BillingAddress = billingAddress;
-            this.PaymentMethod = paymentMethod;
-            this.OrderStatus = orderStatus;
-            this.ShippingMethod = shippingMethod;
-            this.TrackingNumber = trackingNumber;
-            this.CustomerNotes = customerNotes;
+            this.OrderDate = order.OrderDate;
+            this.TotalAmount = order.TotalAmount;
+            this.ShippingAddress = order.ShippingAddress;
+            this.BillingAddress = order.BillingAddress;
+            this.PaymentMethod = order.PaymentMethod;
+            this.OrderStatus = order.OrderStatus;
+            this.ShippingMethod = order.ShippingMethod;
+            this.TrackingNumber = order.TrackingNumber;
+            this.CustomerNotes = order.CustomerNotes;
         }           
 
         public void CancelOrder()
