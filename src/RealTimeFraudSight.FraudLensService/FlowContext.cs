@@ -7,7 +7,7 @@ namespace RealTimeFraudSight.FraudLensService
     {
         private List<FlowError> errors = new List<FlowError>();
         private Dictionary<string, object> bucket = new Dictionary<string, object>();
-        
+
         public FlowContext(IMessageFlowContext context) => this.MessageFlowContext = context;
         public Guid OrderId { get; internal set; }
         public Guid CustomerId { get; internal set; }
@@ -22,11 +22,12 @@ namespace RealTimeFraudSight.FraudLensService
         public required string TrackingNumber { get; set; }
         public required string CustomerNotes { get; set; }
         public IMessageFlowContext MessageFlowContext { get; }
-        public IReadOnlyCollection<FlowError> Errors => (IReadOnlyCollection<FlowError>) this.errors.AsReadOnly();
+        public IReadOnlyCollection<FlowError> Errors => (IReadOnlyCollection<FlowError>)this.errors.AsReadOnly();
         public void AddError(FlowError error) => this.errors.Add(error);
+
         public void AddError(Exception exception)
         {
-            this.errors.Add(new FlowError() { Code = exception.GetType().Name, Message = exception.Message, StackTrace = exception.StackTrace });
+            this.errors.Add(new FlowError() { Code = exception.GetType().Name, Message = exception.Message, StackTrace = exception.StackTrace ?? string.Empty });
         }
 
         public void AddToBucket(string key, object value) => this.bucket.Add(key, value);
