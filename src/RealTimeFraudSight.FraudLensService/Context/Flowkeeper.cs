@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks.Dataflow;
 
-namespace RealTimeFraudSight.FraudLensService
+namespace RealTimeFraudSight.FraudLensService.Context
 {
     public abstract class Flowkeeper :
     IPropagatorBlock<FlowContext, FlowContext>,

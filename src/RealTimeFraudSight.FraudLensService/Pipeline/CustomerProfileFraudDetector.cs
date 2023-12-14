@@ -1,4 +1,6 @@
 
+using RealTimeFraudSight.FraudLensService.Context;
+
 namespace RealTimeFraudSight.FraudLensService.Pipeline
 {
     public class CustomerProfileFraudDetector : Flowkeeper

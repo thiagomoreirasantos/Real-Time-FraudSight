@@ -1,4 +1,5 @@
 using RealTimeFraudSight.Domain;
+using RealTimeFraudSight.FraudLensService.Context;
 
 namespace RealTimeFraudSight.FraudLensService
 {

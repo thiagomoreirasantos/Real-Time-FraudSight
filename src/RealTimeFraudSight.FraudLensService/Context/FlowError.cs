@@ -1,4 +1,4 @@
-namespace RealTimeFraudSight.FraudLensService
+namespace RealTimeFraudSight.FraudLensService.Context
 {
     public class FlowError
     {

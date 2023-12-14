@@ -1,7 +1,7 @@
 
 using RealTimeFraudSight.Domain;
 
-namespace RealTimeFraudSight.FraudLensService
+namespace RealTimeFraudSight.FraudLensService.Context
 {
     public class FlowContext
     {
