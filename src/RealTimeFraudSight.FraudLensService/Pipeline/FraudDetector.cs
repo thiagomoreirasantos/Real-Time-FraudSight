@@ -1,3 +1,5 @@
+using RealTimeFraudSight.FraudLensService.Context;
+
 namespace RealTimeFraudSight.FraudLensService
 {
     public class FraudDetector : Flowkeeper

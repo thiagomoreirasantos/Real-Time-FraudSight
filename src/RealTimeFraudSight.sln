@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.FraudLen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Domain", "RealTimeFraudSight.Domain\RealTimeFraudSight.Domain.csproj", "{1020C08A-5F3F-4588-861D-8D9548C1C5F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeFraudSight.Gateway", "RealTimeFraudSight.Gateway\RealTimeFraudSight.Gateway.csproj", "{12CAC84E-9BDC-427B-A455-5925409D43F0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
